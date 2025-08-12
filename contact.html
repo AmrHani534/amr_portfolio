@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact&nbsp;|&nbsp;Amr&nbsp;Hani</title>
+    <!-- Fonts and icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-ku+fDDeRfZFf0cDpWFIn08eVhU4bRZ8qrr8FvJmXvI3/BV5U0WWzEWr7D41ZnPRHGfksfYT5nSo1BzN9qDsFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="logo"><a href="index.html">Amr&nbsp;Hani</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="section">
+      <h2>Get&nbsp;in&nbsp;Touch</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto; color: var(--muted-text);">
+        Whether you have an idea for a project or just want to say hello,
+        my inbox is always open. I'm based in Giza, Egypt and available for
+        freelance work, collaborations and new opportunities.
+      </p>
+      <div class="contact-container" style="margin-top: 2rem;">
+        <!-- Contact Information -->
+        <div style="margin-bottom: 1.5rem; text-align: center;">
+          <p><i class="fas fa-envelope" style="color: var(--primary-color);"></i>
+            <a href="mailto:amrhanygomaa@gmail.com">amrhanygomaa@gmail.com</a></p>
+          <p><i class="fab fa-linkedin" style="color: var(--primary-color);"></i>
+            <a href="https://www.linkedin.com/in/amr-hani-2b0996367/" target="_blank">LinkedIn Profile</a></p>
+          <p><i class="fas fa-map-marker-alt" style="color: var(--primary-color);"></i>
+            Giza, Egypt</p>
+        </div>
+        <!-- Contact Form -->
+        <form action="mailto:amrhanygomaa@gmail.com" method="POST" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Your message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy;&nbsp;2025&nbsp;Amr&nbsp;Hani. All&nbsp;rights&nbsp;reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
