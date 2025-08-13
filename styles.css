@@ -1,6 +1,4 @@
-/.project-card
-
-*
+/*
   Stylesheet for Amr Hani’s personal portfolio.
   The design embraces a modern, dark theme with vibrant accent colours and a focus
   on readability. Responsive layouts ensure the site looks great on both desktop
@@ -441,37 +439,4 @@ footer {
   nav .nav-toggle {
     display: block;
   }
-}
-/* Animations classes */
-.hidden {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Project card hover effect */
-.project-card:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-}
-
-/* Social Links styling */
-.social-links {
-  margin-top: 1rem;
-  text-align: center;
-}
-.social-links a {
-  margin: 0 0.5rem;
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 500;
-}
-.social-links a:hover {
-  color: var(--accent-color);
-  text-decoration: underline;
 }
